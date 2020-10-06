@@ -24,7 +24,7 @@ public class QuadraticEquation {
         }
         else{
             if (b!=0){
-                x=-c/b;
+                x=-1.0*c/b;
                 System.out.println(x);
             }
             else {
