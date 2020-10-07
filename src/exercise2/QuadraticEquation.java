@@ -13,8 +13,8 @@ public class QuadraticEquation {
         if (a!=0){
             disk=b*b-4*a*c;
             if(disk>=0){
-                x1=(-b+Math.sqrt(disk))/(2*a);
-                x2=(-b-Math.sqrt(disk))/(2*a);
+                x1=(-b+(Math.sqrt(disk))/(2*a);
+                x2=(-b-(Math.sqrt(disk)))/(2*a);
                 System.out.println(x1);
                 System.out.println(x2);
             }
