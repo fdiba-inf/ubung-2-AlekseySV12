@@ -11,7 +11,7 @@ public class QuadraticEquation {
         double x2;
         double x;
         if (a!=0){
-            disk=b*b-4*a*c;
+            disk=(b*b)-(4*a*c);
             if(disk>=0){
                 x1=(-b+Math.sqrt(disk))/(2*a);
                 x2=(-b-Math.sqrt(disk))/(2*a);
