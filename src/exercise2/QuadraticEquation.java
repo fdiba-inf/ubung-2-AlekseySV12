@@ -17,10 +17,9 @@ public class QuadraticEquation {
             if(disk>=0){
                 x1=(-b+Math.sqrt(disk))/(2*a);
                 x2=(-b-Math.sqrt(disk))/(2*a);
-                System.out.println(x1);
-                System.out.println(x2);
-                System.out.println(x1);
-                System.out.println(x1);
+                System.out.println(x1,x2);
+                
+                
             }
             else {
                 System.out.println("Imaginary values");
