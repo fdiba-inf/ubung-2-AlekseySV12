@@ -11,6 +11,6 @@ public class DayOfWeek{
     else if (a==5){System.out.println("Day of week: Friday");}
     else if (a==6){System.out.println("Day of week: Saturday");}
     else if (a==7){System.out.println("Day of week: Sunday");}
-    else {System.out.println("Invalid day");}
+    else {System.out.println("Day of week: Invalid day");}
   }
 }
